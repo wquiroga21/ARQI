@@ -1,0 +1,45 @@
+# Xcode
+#
+## User settings
+xcuserdata/
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# macOS
+.DS_Store
+
+# Server configuration
+*.env
+*.pem
+*.key
+
+# API keys and secrets
+**/Config/Secret.swift
+**/Config/Keys.swift
+
+# Ngrok URLs and server addresses
+**/ServerConfig.swift
+**/ServerAddress.swift
+
+# Temporary files
+*.swp
+*~ 
